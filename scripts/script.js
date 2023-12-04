@@ -1,11 +1,11 @@
 sayHello()
 
-// let promptFilter = prompt()
+let promptFilter = prompt()
 
+let arrayPrompt = [promptFilter]
 
-// let textFilter = promptFilter.filter( person => person   > 6);
-
-// console.log(textFilter);
+const textFilter = arrayPrompt.filter((person) => person.length > 6);
+console.log(textFilter);
 
 let calculator = {
     num1: 10,
